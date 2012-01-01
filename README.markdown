@@ -1,6 +1,8 @@
 ##crisp.js
 
-Build css3 buttons with a single line of javascript. To try it out, visit [www.logicalcognition.com/crisp.js](http://logicalcognition.com/crisp.js).
+Build css3 buttons with a single line of javascript. To try it out, visit [crisp.logicalcognition.com](http://crisp.logicalcognition.com).
+
+![Alt text](http://logicalcognition.com/Projects/crisp.js/demo/screenshot.png)
 
 ##Supported Browsers
 
