@@ -1,7 +1,6 @@
 /**
 * Crisp.js
-* logicalcognition.com/crisp.js
-* Paul Bouchon
+* http://bouchon.github.com/crisp
 */
 window.crisp = this;
 this.loadStyles(['http://fonts.googleapis.com/css?family=Amaranth']);
