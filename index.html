@@ -100,6 +100,88 @@
 
     </div>
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    <script>
+        var node = document.getElementById('demo');
+		//gordon freeman lives on
+		crisp.create({
+			domNode:node,
+			innerHTML:'gordon',
+			width:'100px',
+			height:'40px'
+		});
+		crisp.create({
+			domNode:node,
+			innerHTML:'freeman',
+			bgColor:'#FF6600',
+			width:'110px',
+			height:'40px',
+			fontFamily:'Impact'
+		});
+		crisp.create({
+			domNode:node,
+			innerHTML:'has',
+			bgColor:'#660088',
+			width:'64px',
+			height:'40px',
+			fontFamily: 'Times'
+		});
+		node.appendChild(document.createElement('br'));
+		crisp.create({
+			domNode:node,
+			innerHTML:'escaped',
+			bgColor:'#FF0022',
+			width:'110px',
+			height:'40px',
+			fontFamily:'Courier'
+		});
+		crisp.create({
+			domNode:node,
+			innerHTML:'black',
+			bgColor:'black',
+			width:'80px',
+			height:'40px',
+		});
+		crisp.create({
+			domNode:node,
+			innerHTML:'mesa.',
+			bgColor:'white',
+			width:'85px',
+			height:'40px',
+			color:'black'
+		});
+		node.appendChild(document.createElement('br'));
+		crisp.create({
+			domNode:node,
+			innerHTML:'BIG',
+			width:'148px',
+			height:'100px',
+			fontSize:'65px'
+		});
+		crisp.create({
+			domNode:node,
+			innerHTML:'small',
+			width:'39px',
+			height:'20px',
+			fontSize:'12px',
+			bgColor:'#CC33AA'
+		}).style.top = '-40px';
+		crisp.create({
+			domNode:node,
+			innerHTML:'small',
+			width:'39px',
+			height:'20px',
+			fontSize:'12px',
+			bgColor:'#CC0011'
+		}).style.top = '-40px';
+		crisp.create({
+			domNode:node,
+			innerHTML:'small',
+			width:'39px',
+			height:'20px',
+			fontSize:'12px',
+			bgColor:'grey'
+		}).style.top = '-40px';
+	</script>
     
   </body>
 </html>
