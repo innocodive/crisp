@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Crisp by bouchon</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/bouchon/crisp">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/bouchon/crisp/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/bouchon/crisp/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Crisp</h1>
+          <p>sexy css3 buttons with one line of js</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/bouchon">bouchon</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h2>About</h2>
+
+<p>Build css3 buttons with a single line of javascript. <a href="http://bouchon.github.com/crisp">Demo</a>.</p>
+
+<h2>Usage</h2>
+
+<p>A button is just a regular element. To change its look or feel more than the in the example above, just create it and style it like you would any other element. Same goes for registering event handlers and positioning.</p>
+
+<p>Paste into your page's HEAD</p>
+
+<div class="highlight">
+<pre><span class="go">&lt;script src="https://raw.github.com/bouchon/crisp/master/crisp.js"&gt;&lt;/script&gt;</span>
+</pre>
+</div>
+
+
+<p>Build a fricken button</p>
+
+<div class="highlight">
+<pre><span class="kd">var</span> <span class="nx">button</span> <span class="o">=</span> <span class="nx">crisp</span><span class="p">.</span><span class="nx">create</span><span class="p">({</span><span class="nx">innerHTML</span><span class="o">:</span> <span class="s1">'click me'</span><span class="p">});</span>
+</pre>
+</div>
+
+
+<p>Build a fricken button and place it in the DOM</p>
+
+<div class="highlight">
+<pre><span class="kd">var</span> <span class="nx">button</span> <span class="o">=</span> <span class="nx">crisp</span><span class="p">.</span><span class="nx">create</span><span class="p">({</span><span class="nx">innerHTML</span><span class="o">:</span> <span class="s1">'click me'</span><span class="p">});</span>
+<span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'foo'</span><span class="p">).</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">button</span><span class="p">);</span>
+</pre>
+</div>
+
+
+<p>Build a fricken button using all config options</p>
+
+<div class="highlight">
+<pre><span class="kd">var</span> <span class="nx">args</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="nx">innerHTML</span><span class="o">:</span> <span class="s1">'gordon'</span><span class="p">,</span>   <span class="c1">// button text</span>
+  <span class="nx">width</span><span class="o">:</span> <span class="s1">'100px'</span><span class="p">,</span>        <span class="c1">// button width</span>
+  <span class="nx">height</span><span class="o">:</span> <span class="s1">'40px'</span><span class="p">,</span>        <span class="c1">// button height</span>
+  <span class="nx">color</span><span class="o">:</span> <span class="s1">'#FF0022'</span><span class="p">,</span>      <span class="c1">// text color</span>
+  <span class="nx">bgColor</span><span class="o">:</span> <span class="s1">'green'</span><span class="p">,</span>      <span class="c1">// background color</span>
+  <span class="nx">fontFamily</span><span class="o">:</span> <span class="s1">'Arial'</span><span class="p">,</span>   <span class="c1">// font face</span>
+  <span class="nx">fontSize</span><span class="o">:</span> <span class="s1">'20px'</span>       <span class="c1">// font size</span>
+<span class="p">}</span>
+<span class="kd">var</span> <span class="nx">button</span> <span class="o">=</span> <span class="nx">crisp</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">args</span><span class="p">);</span>
+<span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'foo'</span><span class="p">).</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">button</span><span class="p">);</span>
+</pre>
+</div>
+
+
+<h2>Issues &amp; Features</h2>
+
+<p>File under the Issues section or feel free to fork and pull-request</p>
+
+<h2>License</h2>
+
+<p>WTFPL</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    
+  </body>
+</html>
